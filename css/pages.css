@@ -158,6 +158,10 @@ textarea{
     background: #3a4e78
 }
 
+#hero-spot a {
+    color: #FFF;
+}
+
 .help-link{
     position:absolute;
     top:20px;
