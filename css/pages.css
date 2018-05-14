@@ -88,16 +88,16 @@ img {
 }
 
 strong{
-    font-weight:bold
+    font-weight: 700;
 }
 
 a{
     color:#4183C4;
-    text-decoration:none
+    text-decoration:none;
 }
 
 a:hover{
-    color:#156cc2
+    color:#156cc2;
 }
 
 p code{
@@ -105,7 +105,7 @@ p code{
     border:1px solid #ddd;
     border-radius:4px;
     padding:2px 5px;
-    font-family:Consolas, "Liberation Mono", Courier, monospace
+    font-family:Consolas, "Liberation Mono", Courier, monospace;
 }
 
 h2{
