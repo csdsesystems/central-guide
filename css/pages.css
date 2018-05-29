@@ -118,6 +118,10 @@ h2{
 }
 
 li h2 {
+    margin-top: 50px;
+}
+
+li h2:first-of-type {
     margin-top: 0px;
 }
 
