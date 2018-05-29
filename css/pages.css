@@ -18,7 +18,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 }
 
 body{
-    line-height:1
+    line-height:
 }
 
 ol,ul{
@@ -116,6 +116,8 @@ h2{
     font-size:21px;
     max-width:740px
 }
+
+
 
 li h2 {
     margin-top: 50px;
@@ -724,4 +726,55 @@ footer .right{
     margin-left:auto;
     margin-right:auto
 }
- 
+
+
+.download-image {
+    position: relative;
+    width: 220px;
+    height: 147px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.download-image:hover i {
+    display: inline;
+}
+
+.download-image:hover .overlay {
+    opacity: 1;
+}
+
+.download-image .overlay {
+  position: absolute; 
+  top: 0;
+  left: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 220px;
+  height: 147px;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+}
+
+.download-image i {
+    font-size: 40px;
+    position: absolute;
+    z-index: 5;
+    top: 30%;
+    left: 40%;
+    color: #FFF;
+    display: none;
+}
+
+.download-image img {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+}
