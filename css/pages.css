@@ -157,7 +157,7 @@ textarea{
 
 .logo{
     display:block;
-    width:169px;
+    width:200px;
     margin:0 auto
 }
 
@@ -200,7 +200,6 @@ textarea{
 h1{
     margin:90px auto 0 auto;
     font-size:48px;
-    font-weight:200;
     line-height:60px;
     text-align:center;
     max-width:910px;
@@ -219,11 +218,11 @@ h1{
 }
 
 #hero-spot h2{
-    color:#a7a7a7;
+    color: #FFFFFF;
     -webkit-backface-visibility:hidden;
     line-height:1.5em;
     max-width:none;
-    margin: 0px auto 60px;
+    margin: 0px auto 30px;
     font-size:30px
 }
 
@@ -233,12 +232,22 @@ h1{
 }
 
 .hero-spot h2>a:hover{
-    text-decoration:none
+    text-decoration:none;
+}
+
+.hero-spot p {
+    max-width: 830px;
+    color: rgba(255, 255, 255, 0.64);
+    line-height:1.6em;
+    margin: 0px auto 40px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
 }
 
 #slideshow{
     margin:30px auto 0;
-    position:relative
+    position:relative;
 }
 
 .slide{
